@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "aps-south-1"
+  region = "ap-south-1"
 }
 
 resource "aws_iam_user" "ccitdev1user"{
