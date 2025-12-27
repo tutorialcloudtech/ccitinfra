@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "ccitbucket"{
 
 }
 
-resource "aws_s3_bucket" "ccitbucket"{
+resource "aws_s3_bucket" "ccitbucket1"{
   bucket = "ccit-bucket-281225"
 
   tags = {
