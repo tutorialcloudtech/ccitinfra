@@ -14,7 +14,12 @@ name = "ccitdev2"
 
 }
 
-resource "aws_instance" "ccitinst"{
-  ami = "ami-00ca570c1b6d79f36"
-  instance_type = "t3.micro"
+resource "aws_s3_bucket" "ccitbucket"{
+  name = "ccit-bucket-271225"
+
+  tags = {
+    Name = "ccitbucket"
+    Project = "ccit"
+  }
+
 }
