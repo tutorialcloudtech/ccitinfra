@@ -15,7 +15,7 @@ name = "ccitdev2"
 }
 
 resource "aws_s3_bucket" "ccitbucket"{
-  name = "ccit-bucket-271225"
+  bucket = "ccit-bucket-271225"
 
   tags = {
     Name = "ccitbucket"
